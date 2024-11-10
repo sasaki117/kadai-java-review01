@@ -11,8 +11,8 @@ public class Review01 {
     }
 
     public static int tax(int price) {
-        int taxrate = 10;
-        int result = price / taxrate;
+        double taxrate = 0.05;
+        int result = (int)(price * taxrate);
         return result;
     }
 }
